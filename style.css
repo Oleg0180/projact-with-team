@@ -74,13 +74,17 @@ a{
 
 /* Buno Oleg*/
 
-.section{
+.section-products{
     margin: 0px;
-    padding: 0px 0px 120px;
+    padding: 0px 24px 120px;
 }
 
 .best-selling-instruments{
     padding: 60px 0 120px;
+}
+
+.carousel-store-b-sell{
+    text-align: start;
 }
 
 .small-orange-text{
@@ -136,8 +140,7 @@ a{
 
 .back-fon-b-sell{
     background-image: url(../img/fon-guitar.jpg) ;
-    z-index: -1;
-    width: 100%;
+    
 }
 
 
@@ -179,3 +182,41 @@ a{
     background-color: #f8b803;
 }
 
+.vertical-line{
+     border-left: 1px solid rgb(97, 104, 97);
+     max-height: 90px;
+    width: 1px;
+}
+
+.timer{
+    display: grid;
+
+}
+
+/*.timer{
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+
+}*/
+
+.time{
+    color: var( --light-text-color);
+    font-size: 25px;
+    margin: 0%;
+}
+
+/*.timer-info-d, .timer-info-h, .timer-info-m{
+    border-right: 1px solid var(--general-text-color) ;
+    text-align: center;
+}*/
+.timer-days, .timer-hours, .timer-minutes, .timer-seconds{
+    color: var(--general-text-color);
+    font-size: 15px;
+    margin: 0%;
+}
