@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* GENERAL COLORS START */
+    --header-color: #f8b803;
+    --general-text-color: #777777;
+    --dark-text-color: #242424;
+    --light-text-color: #ffffff;
+    /* GENERAL COLORS END */
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat fixed;
+    background-size:cover;
+    z-index: -10;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.orange-text, .orange-dot, .orange-prices {
+    color: #f8b803;
+    font-weight: bold;
+}
+
+.green-text {
+    color: #669904;
+    font-weight: bold;
+}
+
+.white-text {
+    color: white;
+}
+
+.divider-line-wraper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.divider-line {
+    height: 2px;
+    width: 6%;
+    background-color: #f8b803;
+}
+
+/*@media (min-width:480px){
+    .gray-text-b-sell{
+        display: flex;
+        
+    }
+}*/
+
+
+/* Buno Oleg*/
+
+.section{
+    margin: 0px;
+    padding: 0px 0px 120px;
+}
+
+.best-selling-instruments{
+    padding: 60px 0 120px;
+}
+
+.small-orange-text{
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.best-selling{
+    margin: 0px;
+    padding: 10px 0px 5px;
+}
+
+.gray-text-b-sell{
+    color: var(--general-text-color);
+    font-size: 18px;
+    margin: 10px 0px 0px;
+
+}
+
+.product-name-nav {
+    font-size: 20px;
+    color: var(--general-text-color);
+    margin: 10px 0px 0px;
+}
+
+.product-b-sell img{
+    height: 242px;
+    width: 242px;
+}
+
+.button-b-sell {
+    color: #ffffff;
+    font-size: 14px;
+    font-family:'Work Sans', sans-serif;
+    padding: 15px 25px;
+    background-color: var(--dark-text-color);
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.button-b-sell:hover {
+    background-color: var(--header-color);
+    transition: 0.4s;
+}
+
+.orange-prices-b{
+    font-size: 20px;
+    color: var(--header-color);
+    font-weight: bold;
+    margin: 16px 0px 24px;
+}
+
+.back-fon-b-sell{
+    background-image: url(../img/fon-guitar.jpg) ;
+    z-index: -1;
+    width: 100%;
+}
+
+
+.info-text-b{
+    color: var(--general-text-color);
+}
+
+.yellow-guitar{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.info-guitar{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.info-guitar-text{
+    margin: 50px 0px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    text-align: start;
+}
+
+.divider-line-wraper-b-sell{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.divider-line-b-sell {
+    height: 2px;
+    width: 9%;
+    background-color: #f8b803;
+}
+
