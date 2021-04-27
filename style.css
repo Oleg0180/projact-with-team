@@ -105,6 +105,12 @@ a{
 
 }
 
+.products-carousel{
+    display: flex;
+    justify-content: center;
+}
+
+
 .product-name-nav {
     font-size: 20px;
     color: var(--general-text-color);
@@ -189,8 +195,9 @@ a{
 }
 
 .timer{
-    display: grid;
-
+    padding-top: 20px; 
+    display: flex;
+    justify-content: center;
 }
 
 /*.timer{
@@ -207,7 +214,7 @@ a{
 
 .time{
     color: var( --light-text-color);
-    font-size: 25px;
+    font-size: 40px;
     margin: 0%;
 }
 
@@ -217,6 +224,11 @@ a{
 }*/
 .timer-days, .timer-hours, .timer-minutes, .timer-seconds{
     color: var(--general-text-color);
-    font-size: 15px;
+    font-size: 20px;
     margin: 0%;
 }
+
+.timer-info-h, .timer-info-m, .timer-info-s{
+    border-left: 1px solid var(--light-text-color);
+}
+
