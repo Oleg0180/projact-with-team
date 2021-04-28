@@ -80,7 +80,20 @@ a{
 }
 
 .best-selling-instruments{
+    min-width: 420px;
     padding: 60px 0 120px;
+}
+
+@media(min-width: 425px){
+    .best-selling-instruments{
+        min-width: 767px;
+    }
+
+}
+
+@media(min-width: 767px) and (max-width: 980px){
+    
+    
 }
 
 .carousel-store-b-sell{
@@ -145,8 +158,10 @@ a{
 }
 
 .back-fon-b-sell{
-    background-image: url(../img/fon-guitar.jpg) ;
-    
+    max-width: 100%;
+    background-image: url(../img/fon-guitar.jpg);
+    background-size: cover;
+    z-index: -1;
 }
 
 
@@ -156,7 +171,6 @@ a{
 
 .yellow-guitar{
     height: 500px;
-    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -228,7 +242,10 @@ a{
     margin: 0%;
 }
 
-.timer-info-h, .timer-info-m, .timer-info-s{
-    border-left: 1px solid var(--light-text-color);
+.timer-info-h, .timer-info-m{
+    padding-right: 5px;
 }
 
+.timer-info-d{
+    padding-right: 10px;
+}

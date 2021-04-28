@@ -1,4 +1,4 @@
-const images = [
+/*const images = [
     "img/black-guitar.jpg",
     "img/saxophone.jpg",
     "img/tambourine.jpg",
