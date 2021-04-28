@@ -144,7 +144,7 @@ a{
   
   .back-fon-b-sell{
     max-width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/best-selling-imgs/fon-guitar.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/fon-guitar.jpg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: cover;
